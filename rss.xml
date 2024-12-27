@@ -2,30 +2,18 @@
 <rss version="2.0">
   <channel>
     <title>Your Site Title</title>
-    <link>https://dojeedev.github.io/</link>
+    <link>https://phdcomics.com</link>
     <description>Description of your site</description>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Dec 2024 12:00:00 +0000</lastBuildDate>
     <item>
-      <title>Post Title 1</title>
-      <link>https://dojeedev.github.io/post-1</link>
-      <description>Short description of the post</description>
-      <pubDate>Wed, 25 Dec 2024 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Post Title 2</title>
-      <link>https://dojeedev.github.io/post-2</link>
+      <title>Post Title 5</title>
+      <link>https://phdcomics.com/comics/archive.php?comicid=2019</link>
       <description>Short description of the post</description>
       <pubDate>Tue, 24 Dec 2024 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Post Title 3</title>
-      <link>https://dojeedev.github.io/post-img</link>
-      <description>Short description of the post</description>
-      <pubDate>Tue, 24 Dec 2024 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Post Title 4</title>
+      <title>a comic</title>
       <link>https://phdcomics.com/comics/archive.php?comicid=2019</link>
       <description>Short description of the post</description>
       <pubDate>Tue, 24 Dec 2024 10:00:00 +0000</pubDate>
