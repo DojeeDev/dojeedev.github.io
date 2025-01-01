@@ -25,7 +25,7 @@ for p in range(NumOfPosts):
     fe = fg.add_entry()
     fe.id('https://dojeedev.github.io/PHD/' + str(n) + '.html')
     fe.title(str(n))
-    fe.link(href="https://dojeedev.github.io/")
+    fe.link(href="https://dojeedev.github.io/PHD/" + str(n) + '.html')
 
 rssfeed  = fg.rss_str(pretty=True) # Get the RSS feed as string
 fg.rss_file('rss.xml') # Write the RSS feed to a file
