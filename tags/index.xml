@@ -5,6 +5,43 @@
     <link>https://dojeedev.github.io/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://dojeedev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Feb 2025 16:53:36 -0700</lastBuildDate><atom:link href="https://dojeedev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ai</title>
+      <link>https://dojeedev.github.io/tags/ai/</link>
+      <pubDate>Sun, 02 Feb 2025 16:53:36 -0700</pubDate>
+      
+      <guid>https://dojeedev.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diy</title>
+      <link>https://dojeedev.github.io/tags/diy/</link>
+      <pubDate>Sun, 02 Feb 2025 16:53:36 -0700</pubDate>
+      
+      <guid>https://dojeedev.github.io/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school</title>
+      <link>https://dojeedev.github.io/tags/school/</link>
+      <pubDate>Sun, 02 Feb 2025 16:53:36 -0700</pubDate>
+      
+      <guid>https://dojeedev.github.io/tags/school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>selfhosting</title>
+      <link>https://dojeedev.github.io/tags/selfhosting/</link>
+      <pubDate>Sun, 02 Feb 2025 16:53:36 -0700</pubDate>
+      
+      <guid>https://dojeedev.github.io/tags/selfhosting/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

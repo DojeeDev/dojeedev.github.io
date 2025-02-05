@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Selfhosting for School | My New Hugo Site</title>
+<meta name="title" content="Selfhosting for School" />
+<meta name="description" content="Motivation Selfhosting has always been something I&rsquo;ve enjoyed. While in lots of cases selfhosting gives you a better experience and not to mention privacy and security than your typical SaaS app, even when it doesn&rsquo;t the satisfaction in doing it yourself almost makes up for the hours sunk into trying to make it work.
+Recently I problem I&rsquo;ve noticed is that professors will assign hours upon hours of lectures and reading ( okay maybe I&rsquo;m exaggerating a bit but it still feels like it )." />
+<meta name="keywords" content="selfhosting,diy,ai,school," />
+
+
+<meta property="og:title" content="Selfhosting for School" />
+<meta property="og:description" content="Motivation Selfhosting has always been something I&rsquo;ve enjoyed. While in lots of cases selfhosting gives you a better experience and not to mention privacy and security than your typical SaaS app, even when it doesn&rsquo;t the satisfaction in doing it yourself almost makes up for the hours sunk into trying to make it work.
+Recently I problem I&rsquo;ve noticed is that professors will assign hours upon hours of lectures and reading ( okay maybe I&rsquo;m exaggerating a bit but it still feels like it )." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dojeedev.github.io/blog/selfhosting-for-school/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2025-02-02T16:53:36-07:00" />
+<meta property="article:modified_time" content="2025-02-02T16:53:36-07:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Selfhosting for School"/>
+<meta name="twitter:description" content="Motivation Selfhosting has always been something I&rsquo;ve enjoyed. While in lots of cases selfhosting gives you a better experience and not to mention privacy and security than your typical SaaS app, even when it doesn&rsquo;t the satisfaction in doing it yourself almost makes up for the hours sunk into trying to make it work.
+Recently I problem I&rsquo;ve noticed is that professors will assign hours upon hours of lectures and reading ( okay maybe I&rsquo;m exaggerating a bit but it still feels like it )."/>
+
+
+
+<meta itemprop="name" content="Selfhosting for School">
+<meta itemprop="description" content="Motivation Selfhosting has always been something I&rsquo;ve enjoyed. While in lots of cases selfhosting gives you a better experience and not to mention privacy and security than your typical SaaS app, even when it doesn&rsquo;t the satisfaction in doing it yourself almost makes up for the hours sunk into trying to make it work.
+Recently I problem I&rsquo;ve noticed is that professors will assign hours upon hours of lectures and reading ( okay maybe I&rsquo;m exaggerating a bit but it still feels like it )."><meta itemprop="datePublished" content="2025-02-02T16:53:36-07:00" />
+<meta itemprop="dateModified" content="2025-02-02T16:53:36-07:00" />
+<meta itemprop="wordCount" content="437">
+<meta itemprop="keywords" content="selfhosting,diy,ai,school," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+      --width: 800px;
+      --font-main: Verdana, sans-serif;
+      --font-secondary: Verdana, sans-serif;
+      --font-scale: 1em;
+      --background-color: #fff;
+      --heading-color: #222;
+      --text-color: #444;
+      --link-color: #3273dc;
+      --visited-color:  #8b6fcb;
+      --code-background-color: #f2f2f2;
+      --code-color: #222;
+      --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+      :root {
+          --background-color: #333;
+          --heading-color: #eee;
+          --text-color: #ddd;
+          --link-color: #8cc2dd;
+          --visited-color:  #8b6fcb;
+          --code-background-color: #777;
+          --code-color: #ddd;
+          --blockquote-color: #ccc;
+      }
+  }
+
+  body {
+      font-family: var(--font-secondary);
+      font-size: var(--font-scale);
+      margin: auto;
+      padding: 20px;
+      max-width: var(--width);
+      text-align: left;
+      background-color: var(--background-color);
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+      color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-main);
+      color: var(--heading-color);
+  }
+
+  a {
+      color: var(--link-color);
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline; 
+  }
+
+  nav a {
+      margin-right: 8px;
+  }
+
+  strong, b {
+      color: var(--heading-color);
+  }
+
+  button {
+      margin: 0;
+      cursor: pointer;
+  }
+
+  main {
+      line-height: 1.6;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  hr {
+      border: 0;
+      border-top: 1px dashed;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  code {
+      font-family: monospace;
+      padding: 2px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+  }
+
+  blockquote {
+      border-left: 1px solid #999;
+      color: var(--code-color);
+      padding-left: 20px;
+      font-style: italic;
+  }
+
+  footer {
+      padding: 25px 0;
+      text-align: center;
+  }
+
+  .title:hover {
+      text-decoration: none;
+  }
+
+  .title h1 {
+      font-size: 1.5em;
+  }
+
+  .inline {
+      width: auto !important;
+  }
+
+  .highlight, .code {
+      padding: 1px 15px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+      list-style-type: none;
+      padding: unset;
+  }
+
+  ul.blog-posts li {
+      display: flex;
+  }
+
+  ul.blog-posts li span {
+      flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+      color: var(--visited-color);
+  }
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>My New Hugo Site</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Selfhosting for School</h1>
+<p>
+  <i>
+    <time datetime='2025-02-02'>
+      02 Feb, 2025
+    </time>
+  </i>
+</p>
+
+<content>
+  <h3 id="motivation">Motivation</h3>
+<p>Selfhosting has always been something I&rsquo;ve enjoyed. While in lots of cases selfhosting gives you a better experience and not to mention privacy and security than your typical SaaS app, even when it doesn&rsquo;t the satisfaction in doing it yourself almost makes up for the hours sunk into trying to make it work.</p>
+<p>Recently I problem I&rsquo;ve noticed is that professors will assign hours upon hours of lectures and reading ( okay maybe I&rsquo;m exaggerating a bit but it still feels like it ). In any case regardless of your stance on using AI to summarize content or to even in some cases create content it&rsquo;s difficult to argue against at least having the option. One of my favorite tools is <del>Open</del>ClosedAI&rsquo;s transcription model <a href="https://github.com/openai/whisper">Whisper</a>. It can run on almost anything and is quite accurate and fast. It&rsquo;s fairly easy to use from the terminal however for my girlfriend and roommate that&rsquo;s not an easy option. So I thought it would be a fun and (hopefully) useful project to run a web-ui for the model off of my home server so that they could used it to transcribe videos easily.</p>
+<h3 id="searching-for-a-solution">Searching for a solution</h3>
+<p>Easier said than done it turns out, most solutions I found online either were poorly documented or used out of date docker commands that made them hard to install and set up. Since none of them worked out of the box I just picked one and decided to work on it until I got it working. The one I chose was <a href="https://github.com/jhj0517/Whisper-WebUI">Whisper-WebUI </a>. It has all the features I need and seems to be flexible enough to get working.</p>
+<h3 id="installation-and-workarounds">Installation and workarounds</h3>
+<ol>
+<li>Clone the repo
+<code>git clone https://github.com/jhj0517/Whisper-WebUI.git</code></li>
+<li>run <code>chmod +x ./Install.sh</code> then ./Install.sh.<br>
+I had to edit the sh file to change the <code>python</code> to <code>python3</code> but other than that it worked without many issues. Make sure you have git, python and FFmpeg installed.</li>
+<li>Now for my purposes I wanted to used this on my LAN not just the machine I was running it on. To do that go to line 308 of <code>app.py</code> and edit the server_name and change it to &ldquo;0.0.0.0&rdquo;</li>
+<li>Add the port to your firewall or disable it temporarily (just temporarily I&rsquo;m not crazy!).
+You can do this on fedora server with</li>
+</ol>
+<pre tabindex="0"><code>sudo firewall-cmd --add-port=7860/tcp --permanent
+sudo firewall-cmd --reload
+</code></pre><ol>
+<li>Then just edit start-webui.sh to use python3 ( if needed ). And run it.</li>
+<li>Then after it starts you should be able access at <!-- raw HTML omitted -->:7860</li>
+</ol>
+<p>You could set it up as a systemd service but for my purposes it&rsquo;s easier to just run it in a tmux session.</p>
+
+</content>
+<p>
+  
+  <a href="https://dojeedev.github.io/tags/selfhosting/">#selfhosting</a>
+  
+  <a href="https://dojeedev.github.io/tags/diy/">#diy</a>
+  
+  <a href="https://dojeedev.github.io/tags/ai/">#ai</a>
+  
+  <a href="https://dojeedev.github.io/tags/school/">#school</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

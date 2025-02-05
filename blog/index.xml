@@ -5,6 +5,17 @@
     <link>https://dojeedev.github.io/blog/</link>
     <description>Recent content in Blog on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://dojeedev.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Feb 2025 16:53:36 -0700</lastBuildDate><atom:link href="https://dojeedev.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selfhosting for School</title>
+      <link>https://dojeedev.github.io/blog/selfhosting-for-school/</link>
+      <pubDate>Sun, 02 Feb 2025 16:53:36 -0700</pubDate>
+      
+      <guid>https://dojeedev.github.io/blog/selfhosting-for-school/</guid>
+      <description>Motivation Selfhosting has always been something I&amp;rsquo;ve enjoyed. While in lots of cases selfhosting gives you a better experience and not to mention privacy and security than your typical SaaS app, even when it doesn&amp;rsquo;t the satisfaction in doing it yourself almost makes up for the hours sunk into trying to make it work.
+Recently I problem I&amp;rsquo;ve noticed is that professors will assign hours upon hours of lectures and reading ( okay maybe I&amp;rsquo;m exaggerating a bit but it still feels like it ).</description>
+    </item>
+    
   </channel>
 </rss>
